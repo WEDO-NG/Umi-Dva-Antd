@@ -2,14 +2,15 @@ import { connect } from 'dva';
 import React, { Component, useEffect, useState } from 'react';
 import styles from './index.scss';
 import { Spin } from 'antd'
+import router from 'umi/router';
 
 
 /**
- *  
- * 首页
+ *  router.push("/xxxx")
+ * 模板页
  */
 
-const Home = props => {
+const Example = props => {
     const {
         loading,
         dispatch
@@ -21,7 +22,7 @@ const Home = props => {
             componentWillUnMount()
         }
     }, [])
- 
+
     /**
      * 页面加载完成
      */
@@ -37,8 +38,8 @@ const Home = props => {
     }
 
     return (
-        <div className={styles.HomePage}>
-            Home
+        <div className={styles.ExamplePage}>
+            Example
         </div>
     )
 
@@ -48,5 +49,5 @@ const Home = props => {
 export default connect(({ loading }) => ({
     loading
 })
-)(Home);
+)(Example);
 

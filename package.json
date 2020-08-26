@@ -16,7 +16,8 @@
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
-    "eslint": "^5.4.0",
+    "crypto-js": "^4.0.0",
+    "eslint": "^5.16.0",
     "eslint-config-umi": "^1.4.0",
     "eslint-plugin-flowtype": "^2.50.0",
     "eslint-plugin-import": "^2.14.0",
@@ -24,7 +25,6 @@
     "eslint-plugin-react": "^7.11.1",
     "husky": "^0.14.3",
     "lint-staged": "^7.2.2",
-    "crypto-js": "^4.0.0",
     "querystring": "^0.2.0",
     "react-test-renderer": "^16.7.0",
     "umi": "^2.7.7",
